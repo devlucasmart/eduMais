@@ -1,0 +1,51 @@
+/* Adicione seu estilo personalizado aqui */
+
+html, body {
+    height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.pergunta {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.resposta-label {
+    color: #6c757d;
+}
+
+.resultado {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.verificar-btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.verificar-btn:hover {
+    background-color: #0056b3;
+}
+

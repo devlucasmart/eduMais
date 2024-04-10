@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Informática Básica</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <div class="container" id="container1">
+        <h1 class="text-center mb-4">Quiz de Informática Básica</h1>
+        <form id="quizForm1">
+            <div class="mb-3">
+                <p class="pergunta">Pergunta 1: Qual é a função da tecla "Ctrl" em um teclado?</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pergunta1" id="pergunta1a" value="a">
+                    <label class="form-check-label resposta-label" for="pergunta1a">
+                        Aumentar o volume do computador
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pergunta1" id="pergunta1b" value="b">
+                    <label class="form-check-label resposta-label" for="pergunta1b">
+                        Desligar o computador
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pergunta1" id="pergunta1c" value="c">
+                    <label class="form-check-label resposta-label" for="pergunta1c">
+                        Ativar atalhos de teclado
+                    </label>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="container" id="container2">
+        <form id="quizForm2">
+            <div class="mb-3">
+                <p class="pergunta">Pergunta 2: O que é um arquivo com a extensão ".txt"?</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pergunta2" id="pergunta2a" value="a">
+                    <label class="form-check-label resposta-label" for="pergunta2a">
+                        Um arquivo de vídeo
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pergunta2" id="pergunta2b" value="b">
+                    <label class="form-check-label resposta-label" for="pergunta2b">
+                        Um arquivo de áudio
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pergunta2" id="pergunta2c" value="c">
+                    <label class="form-check-label resposta-label" for="pergunta2c">
+                        Um arquivo de texto
+                    </label>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="container" id="container3">
+        <form id="quizForm3">
+            <div class="mb-3">
+                <p class="pergunta">Pergunta 3: O que é um navegador de internet?</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pergunta3" id="pergunta3a" value="a">
+                    <label class="form-check-label resposta-label" for="pergunta3a">
+                        Um dispositivo de armazenamento de dados
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pergunta3" id="pergunta3b" value="b">
+                    <label class="form-check-label resposta-label" for="pergunta3b">
+                        Um programa para navegar na internet
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pergunta3" id="pergunta3c" value="c">
+                    <label class="form-check-label resposta-label" for="pergunta3c">
+                        Um tipo de computador
+                    </label>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="container text-center">
+        <button type="button" class="btn btn-primary verificar-btn" onclick="verificarRespostas()">Verificar Respostas</button>
+    </div>
+
+    <div id="resultado" class="mt-4 resultado"></div>
+
+    <script src="js/scritps.js"></script>
+</body>
+</html>
